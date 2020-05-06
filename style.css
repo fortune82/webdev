@@ -153,7 +153,7 @@ input[type="radio"] {
     background-color: #000;
 }
 
-.team p:nth-child(1) {
+.heading {
     padding-top: 120px;
     font-weight: 600;
     width: 230px;
@@ -164,7 +164,7 @@ input[type="radio"] {
     font-size: 44px;
 }
 
-.team p:nth-child(1)::after {
+.heading::after {
     content: "";
     display: block;
     height: 3px;
@@ -211,4 +211,52 @@ input[type="radio"] {
 
 .profession p:nth-child(4) {
     margin-top: 40px;
+}
+
+.services {
+    height: 735px;
+}
+
+.heading-black {
+    color: black;
+    width: 305px;
+}
+
+.services {
+    max-width: 1200px;
+    text-align: center;
+}
+
+.services p:nth-child(2) {
+    margin-top: 95px;
+}
+
+.clients {
+    height: 520px;
+    background-color: #000;
+}
+
+.heading {
+    width: 485px;
+}
+
+.heading span {
+    font-weight: 300;
+}
+
+.clients ul {
+    display: flex;
+    justify-content: space-around;
+    width: 950px;
+    margin: 0 auto;
+    margin-top: 140px;
+    color: #b6b6b6;
+    list-style: none;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.clients ul li:first-child,
+.clients ul li:last-child {
+    font-weight: 600;
 }
