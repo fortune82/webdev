@@ -154,7 +154,7 @@ input[type="radio"] {
 }
 
 .heading {
-    padding-top: 120px;
+    padding-top: 100px;
     font-weight: 600;
     width: 230px;
     margin: 0 auto;
@@ -222,13 +222,15 @@ input[type="radio"] {
     width: 305px;
 }
 
-.services {
+.services,
+.our_work {
     max-width: 1200px;
     text-align: center;
 }
 
-.services p:nth-child(2) {
-    margin-top: 95px;
+.services p:nth-child(2),
+.our_work p:nth-child(2) {
+    margin-top: 55px;
 }
 
 .clients {
@@ -244,7 +246,7 @@ input[type="radio"] {
     font-weight: 300;
 }
 
-.clients ul {
+/* .clients ul {
     display: flex;
     justify-content: space-around;
     width: 950px;
@@ -256,7 +258,42 @@ input[type="radio"] {
     text-transform: uppercase;
 }
 
-.clients ul li:first-child,
-.clients ul li:last-child {
+/* .clients ul li:first-child {
     font-weight: 600;
+}
+
+.clients ul li:last-child {
+    font-weight: 800;
+}
+
+.clients ul li:nth-child(2) {
+    font-weight: 600;
+} */
+.logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 105px;
+}
+
+.our_work {
+    height: 1335px;
+}
+
+.our_work p:first-child {
+    width: 580px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 185px;
+}
+
+.gallery img {
+    display: block;
+    width: 265px;
+    height: 236px;
+    margin: 15px;
 }
