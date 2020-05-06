@@ -3,21 +3,19 @@ body {
 
 }
 
-/* .home {
-    max-width: 1500px;
-    margin: 0 auto;
-} */
+header {
+    background-color: black;
+    height: 790px;
+}
 
 .container {
     max-width: 1500px;
     margin: 0 auto;
-    background-color: black;
 }
 
 .home-header {
     max-width: 1200px;
     margin: 0 auto;
-    height: 360px;
     display: flex;
     justify-content: space-between;
 }
@@ -40,7 +38,7 @@ body {
 }
 
 .home-header ul li {
-    margin-left: 35px;
+    margin-left: 30px;
 
 }
 
@@ -63,4 +61,30 @@ body {
 
 .home-header nav a:hover::after {
     width: 100%;
+}
+
+header h1 {
+    max-width: 1200px;
+    margin: 225px auto 0;
+    font-weight: 300;
+    color: #999;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 44px;
+}
+
+header h1 span {
+    color: orange;
+    font-weight: 600;
+}
+
+header p {
+    color: #999;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+header p span {
+    font-weight: 700;
 }
