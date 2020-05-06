@@ -88,3 +88,51 @@ header p {
 header p span {
     font-weight: 700;
 }
+
+.about {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 615px;
+    background-color: #fff;
+}
+
+.monitor img {
+    margin-top: 105px;
+    width: 510px;
+    height: 410px;
+}
+
+.description {
+    margin-left: 175px;
+    margin-top: 140px;
+    width: 415px;
+    color: #b1b1b1;
+    font-size: 18px;
+}
+
+.description p:nth-child(1) {
+    color: #000000;
+    margin-top: 0;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+.description span {
+    font-weight: 700;
+}
+
+.description p:nth-child(1)::after {
+    content: "";
+    display: block;
+    width: 97%;
+    height: 3px;
+    margin-top: 20px;
+    background-color: orange;
+}
+
+.description ul li {
+    font-size: 16px;
+
+}
