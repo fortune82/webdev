@@ -370,3 +370,22 @@ textarea {
     top: 140px;
     left: 200px;
 }
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    height: 90px;
+}
+
+footer ul {
+    text-align: center;
+    padding-top: ;
+}
+
+footer ul li {
+    display: inline;
+    list-style: none;
+    margin-left: 10px;
+}
