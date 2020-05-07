@@ -12,22 +12,22 @@
 </head>
 <header class="container">
     <div class="home-header">
-        <a href="#" class="logo">mycompany</a>
+        <a href="#logo" class="logo">mycompany</a>
         <nav>
             <ul>
                 <li><a href="">home</a></li>
-                <li><a href="">about</a></li>
-                <li><a href="">services</a></li>
-                <li><a href="">portfolio</a></li>
-                <li><a href="">testimonials</a></li>
-                <li><a href="">contact</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#testimoials">testimonials</a></li>
+                <li><a href="#contacts">contact</a></li>
             </ul>
         </nav>
     </div>
-    <h1>welcome on <span>mycompany<span></h1>
+    <h1>welcome on <span>mycompany</span></h1>
     <p>We are a digital agency with <span>years of experience</span> and with <span>extraordinary people</span></p>
 </header>
-<section class="container about">
+<section class="container about" id="about">
     <div class="monitor"><img src="img/monitor.png" alt="monitor"></div>
     <div class="description">
         <p>some words <span>about us</span></p>
@@ -70,19 +70,50 @@
         </div>
     </div>
 </section>
-<section class="container services">
+<section class="container services" id="services">
     <p class="heading heading-black">our servisec</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima non aliquam veniam recusandae illo natus soluta
         dignissimos repudiandae maiores! Aspernatur delectus obcaecati veniam adipisci eaque, voluptatibus explicabo
         sunt laboriosam hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima non aliquam veniam
         recusandae illo natus soluta
         dignissimos repudiandae maiores! </p>
+    <div class="services_design">
+        <div class="web">
+            <div class="screen">
+                <img src="./img/форма1.png" alt="tv">
+            </div>
+            <p>web design</p>
+            <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1/10/32.</p>
+        </div>
+        <div class="web">
+            <div class="screen">
+                <img src="./img/форма2.png" alt="tablet">
+            </div>
+            <p>mobile apps</p>
+            <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1/10/32.</p>
+        </div>
+        <div class="web">
+            <div class="screen">
+                <img src="./img/форма3.png" alt="camera">
+            </div>
+            <p>photography</p>
+            <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1/10/32.</p>
+        </div>
+        <div class="web">
+            <div class="screen">
+                <img src="./img/форма4.png" alt="horn">
+            </div>
+            <p>marketing</p>
+            <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1/10/32.</p>
+        </div>
+    </div>
+
 </section>
 <section class="container clients">
     <p class="heading"><span>some of</span> our clients</p>
-    <div class="logos"><img src="./img/logo.png" alt="logos" width="950px" height="40px"></div>
+    <div class="logos"><img src="./img/logo.png" alt="logos"></div>
 </section>
-<section class="container our_work">
+<section class="container our_work" id="portfolio">
     <p class="heading heading-black"><span>take a look at</span> our work</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima non aliquam veniam recusandae illo natus soluta
         dignissimos repudiandae maiores! Aspernatur delectus obcaecati veniam adipisci eaque, voluptatibus explicabo
@@ -104,22 +135,22 @@
         <img src="./img/poster3.png" alt="poster-man">
     </div>
 </section>
-<section class="container testimonials">
-    <p class="heading"> our clients’<span> testimonials</span></span></p>
+<section class="container testimonials" id="testimoials">
+    <p class="heading"> our clients’<span> testimonials</span></p>
     <p>This book is a treatise on the theory of ethics, very popular during the renaissanse. the first line of lorem
         ipsum."lorem ipsum dolor sitamet.." comes from a line in section 1.10.32</p>
     <p>Dean Martin, <span class="inc">CEO Acme Inc.</span></p>
 </section>
-<section class="container contacts">
+<section class="container contacts" id="contacts">
     <p class="heading heading-black"> contacts us</p>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis magnam eaque cumque similique optio,
         repellendus, rem error enim non dignissimos, mollitia provident quas pariatur tenetur dolores quo nesciunt
         aperiam modi.</p>
-    <form action="" class="send">
+    <form action="index.php" class="send">
         <div class="inp"><label for="name">Name <sup>*</sup></label>
             <input type="text" id="name" required></div>
         <div class="inp"><label for="mail">E-mail address <sup>*</sup></label>
-            <input type="mail" id="mail" required></div>
+            <input type="email" id="mail" required></div>
         <div class="message"><label for="message">Message <sup>*</sup></label>
             <textarea id="message" required></textarea>
         </div>
@@ -128,17 +159,15 @@
         </div>
     </form>
 </section>
-<footer class="container" class="foot">
+<footer class="container foot">
     <ul>
-        <li><a href=""><img src="./img/icon 5.png" alt="facebook"></a></li>
-        <li><a href=""><img src="./img/icon 4.png" alt="twiter"></a></li>
-        <li><a href=""><img src="./img/icon 3.png" alt="google"></a></li>
-        <li><a href=""><img src="./img/icon 2.png" alt="in"></a></li>
-        <li><a href=""><img src="./img/icon 1.png" alt="icon"></a></li>
+        <li><a href=""><img src="./img/icon5.png" alt="facebook"></a></li>
+        <li><a href=""><img src="./img/icon4.png" alt="twiter"></a></li>
+        <li><a href=""><img src="./img/icon3.png" alt="google"></a></li>
+        <li><a href=""><img src="./img/icon2.png" alt="in"></a></li>
+        <li><a href=""><img src="./img/icon1.png" alt="icon"></a></li>
     </ul>
 </footer>
-
-<body>
 
 </body>
 
