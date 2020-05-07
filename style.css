@@ -3,14 +3,22 @@ body {
 
 }
 
-header {
-    background-color: black;
-    height: 790px;
-}
-
 .container {
     max-width: 1800px;
     margin: 0 auto;
+}
+
+.services,
+.our_work,
+.testimonials,
+.contacts {
+    max-width: 1200px;
+    text-align: center;
+}
+
+header {
+    background-color: black;
+    height: 790px;
 }
 
 .home-header {
@@ -222,12 +230,6 @@ input[type="radio"] {
     width: 305px;
 }
 
-.services,
-.our_work {
-    max-width: 1200px;
-    text-align: center;
-}
-
 .services p:nth-child(2),
 .our_work p:nth-child(2) {
     margin-top: 55px;
@@ -246,29 +248,6 @@ input[type="radio"] {
     font-weight: 300;
 }
 
-/* .clients ul {
-    display: flex;
-    justify-content: space-around;
-    width: 950px;
-    margin: 0 auto;
-    margin-top: 140px;
-    color: #b6b6b6;
-    list-style: none;
-    font-size: 30px;
-    text-transform: uppercase;
-}
-
-/* .clients ul li:first-child {
-    font-weight: 600;
-}
-
-.clients ul li:last-child {
-    font-weight: 800;
-}
-
-.clients ul li:nth-child(2) {
-    font-weight: 600;
-} */
 .logos {
     display: flex;
     justify-content: center;
@@ -296,4 +275,98 @@ input[type="radio"] {
     width: 265px;
     height: 236px;
     margin: 15px;
+}
+
+.testimonials {
+    height: 565px;
+    background-color: #000;
+}
+
+.testimonials p:nth-child(1) {
+    width: 658px;
+}
+
+.testimonials p:nth-child(2) {
+    color: #fff;
+    text-transform: uppercase;
+    max-width: 940px;
+    margin: 0 auto;
+    margin-top: 115px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.testimonials p:nth-child(3) {
+    color: #a7a7a7;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.inc {
+    font-weight: 300;
+}
+
+.contacts {
+    height: 835px;
+    margin: 0 auto;
+}
+
+.contacts p:nth-child(2) {
+    width: 735px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+
+.send {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+sup {
+    color: red;
+}
+
+.send div {
+    width: 355px;
+    margin: 10px;
+    margin-top: 100px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#name,
+#mail {
+    width: 355px;
+}
+
+textarea {
+    width: 735px;
+    height: 160px;
+    resize: none;
+}
+
+.send div:nth-child(3) {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: orange;
+    width: 165px;
+    height: 40px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    position: relative;
+    top: 140px;
+    left: 200px;
 }
