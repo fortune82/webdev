@@ -426,6 +426,7 @@ textarea {
     position: relative;
     top: 140px;
     left: 200px;
+    cursor:pointer;
 }
 
 footer {
