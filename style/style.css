@@ -14,7 +14,6 @@ body {
 
 .services,
 .our_work,
-.testimonials,
 .contacts {
     max-width: 1200px;
     text-align: center;
@@ -322,8 +321,9 @@ input[type="radio"] {
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     max-width: 1200px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     margin-top: 185px;
 }
 
@@ -331,7 +331,7 @@ input[type="radio"] {
     display: block;
     width: 265px;
     height: 236px;
-    margin: 15px;
+    margin: 15px 0;
 }
 
 .testimonials {
@@ -404,6 +404,7 @@ label {
 #name,
 #mail {
     width: 355px;
+    height: 40px;
 }
 
 textarea {
@@ -426,6 +427,7 @@ textarea {
     position: relative;
     top: 140px;
     left: 200px;
+    cursor: pointer;
 }
 
 footer {
